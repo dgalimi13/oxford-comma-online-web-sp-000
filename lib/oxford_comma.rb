@@ -4,7 +4,8 @@ if array.size == 1
 elsif array.size == 2
   array.join(" and ")
   elsif array.size >= 3
+  array.insert(2,and)
   array.join(", ")
-  array.insert(2, and)
+
 end
 end
